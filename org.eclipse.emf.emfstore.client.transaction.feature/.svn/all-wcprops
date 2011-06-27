@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.client.transaction.feature
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/11404/trunk/emfstore/deployment/org.eclipse.emf.emfstore.client.transaction.feature/.project
+END
+feature.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.client.transaction.feature/feature.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/11404/trunk/emfstore/deployment/org.eclipse.emf.emfstore.client.transaction.feature/build.properties
+END

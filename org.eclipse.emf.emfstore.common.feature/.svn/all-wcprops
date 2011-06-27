@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.common.feature
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11394/trunk/emfstore/deployment/org.eclipse.emf.emfstore.common.feature/.project
+END
+feature.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.common.feature/feature.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11394/trunk/emfstore/deployment/org.eclipse.emf.emfstore.common.feature/build.properties
+END

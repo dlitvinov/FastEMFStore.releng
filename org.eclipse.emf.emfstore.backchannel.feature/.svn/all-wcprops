@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.backchannel.feature
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11355/trunk/emfstore/deployment/org.eclipse.emf.emfstore.backchannel.feature/.project
+END
+feature.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11653/trunk/emfstore/deployment/org.eclipse.emf.emfstore.backchannel.feature/feature.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11355/trunk/emfstore/deployment/org.eclipse.emf.emfstore.backchannel.feature/build.properties
+END
