@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.emf.emfstore.backchannel.feature"
-      label="EMFStore Backchannel"
-      version="0.7.3"
+      id="org.eclipse.emf.emfstore.client.ui.feature"
+      label="EMFStore Client UI (Incubation)"
+      version="0.8.9.M3"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
-   <description url="http://emfstore.org ">
-      The EMFStore Backchannels feature includes all plugins to enable
-a channel from server to client and an API for the EMFStore clients
-to register for events on the server.
+   <description url="http://emfstore.org">
+      This feature contains all plugins to provide user interfaces
+for client applications connecting to the EMFStore server.
    </description>
 
    <copyright url="http://www.eclipse.org/legal/epl-v10.html">
@@ -221,28 +220,75 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
+   <includes
+         id="org.eclipse.emf.ecp.common.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.editor.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.navigator.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.navigatoreditorbridge.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.client.feature"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.emf.emfstore.client" version="0.7.3" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.emfstore.server" version="0.7.3" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecp.common"/>
+      <import plugin="org.eclipse.emf.emfstore.server.model"/>
+      <import plugin="org.eclipse.emf.emfstore.client"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.emf.ecp.common.util"/>
+      <import plugin="org.eclipse.emf.emfstore.common.model"/>
+      <import plugin="org.eclipse.emf.edit"/>
    </requires>
 
    <plugin
-         id="org.eclipse.emf.emfstore.client.backchannel"
+         id="org.eclipse.emf.ecp.emfstorebridge"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.emf.emfstore.server.backchannel"
+         id="org.eclipse.emf.emfstore.branding"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
    <plugin
-         id="org.eclipse.emf.emfstore.branding"
+         id="org.eclipse.emf.emfstore.server.model.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.model.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"

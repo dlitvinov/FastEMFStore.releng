@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/11896/branches/EMFStoreECP_0.8.x_maintenance/emfstore/org.eclipse.emf.emfstore.client.ui.feature
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/11682/branches/EMFStoreECP_0.8.x_maintenance/emfstore/org.eclipse.emf.emfstore.client.ui.feature/.project
+END
+feature.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/11896/branches/EMFStoreECP_0.8.x_maintenance/emfstore/org.eclipse.emf.emfstore.client.ui.feature/feature.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/11682/branches/EMFStoreECP_0.8.x_maintenance/emfstore/org.eclipse.emf.emfstore.client.ui.feature/build.properties
+END
