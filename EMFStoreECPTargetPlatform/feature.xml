@@ -2,7 +2,7 @@
 <feature
       id="EMFStoreECPTargetPlatform"
       label="EMFStoreECPTargetPlatform"
-      version="0.8.9.M907"
+      version="0.8.9.M908"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org">
