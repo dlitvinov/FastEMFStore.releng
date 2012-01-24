@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.copemigration.feature"
       label="EMFStore Edapt Migration (Incubation)"
-      version="0.8.9.M913"
+      version="0.8.9.M920"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org">
@@ -227,6 +227,10 @@ litigation.
       <import plugin="org.eclipse.emf.edapt.declaration" version="0.3.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.edapt.history" version="0.3.0" match="greaterOrEqual"/>
    </requires>
+
+   <includes
+         id="org.eclipse.emf.emfstore.migration.edapt.source.feature"
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.emfstore.migration.edapt"

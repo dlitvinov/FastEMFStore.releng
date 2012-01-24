@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.common.feature"
       label="EMFStore Common (Incubation)"
-      version="0.8.9.M913"
+      version="0.8.9.M920"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
@@ -218,6 +218,10 @@ Agreement more than one year after the cause of action arose.
 Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
+   
+      <includes
+         id="org.eclipse.emf.emfstore.common.source.feature"
+         version="0.0.0"/>  
 
    <requires>
       <import plugin="org.eclipse.emf.ecore.xmi"/>
