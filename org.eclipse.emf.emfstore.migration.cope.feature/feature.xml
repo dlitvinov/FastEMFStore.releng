@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.emf.emfstore.copemigration.feature"
+      id="org.eclipse.emf.emfstore.migration.edapt.feature"
       label="EMFStore Edapt Migration (Incubation)"
       version="0.8.9.M920"
       provider-name="Eclipse Modeling Project">
@@ -219,6 +219,10 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
+   <includes
+         id="org.eclipse.emf.emfstore.migration.edapt.source.feature"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.emf.emfstore.migration"/>
@@ -227,10 +231,6 @@ litigation.
       <import plugin="org.eclipse.emf.edapt.declaration" version="0.3.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.edapt.history" version="0.3.0" match="greaterOrEqual"/>
    </requires>
-
-   <includes
-         id="org.eclipse.emf.emfstore.migration.edapt.source.feature"
-         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.emfstore.migration.edapt"
