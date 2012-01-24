@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.eclipse.emf.emfstore.copemigration.feature"
-      label="EMFStore Cope Migration (Incubation)"
+      label="EMFStore Edapt Migration (Incubation)"
       version="0.8.9.M913"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org">
-      This feature contains all plugins to migrate EMFStore models with COPE.
+      This feature contains all plugins to migrate EMFStore-hosted models
+with Edapt.
    </description>
 
    <copyright url="http://www.eclipse.org/legal/epl-v10.html">
@@ -220,12 +221,15 @@ litigation.
 
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="edu.tum.cs.cope.migration.execution" version="0.2.13" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.emfstore.migration"/>
+      <import plugin="org.eclipse.emf.edapt.migration" version="0.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edapt.common" version="0.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edapt.declaration" version="0.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edapt.history" version="0.3.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
-         id="org.eclipse.emf.emfstore.migration.cope"
+         id="org.eclipse.emf.emfstore.migration.edapt"
          download-size="0"
          install-size="0"
          version="0.0.0"
