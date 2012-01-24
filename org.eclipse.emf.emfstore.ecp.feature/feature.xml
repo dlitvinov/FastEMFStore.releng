@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.eclipse.emf.emfstore.ecp.feature"
-      label="EMFStore ECP Integration"
+      label="EMFStore ECP Integration (Incubation)"
       version="0.8.9.M920"
       provider-name="Eclipse Modeling Project">
 
@@ -229,6 +229,10 @@ litigation.
       <import plugin="org.eclipse.emf.common" version="2.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecp.common" version="0.8.1" match="greaterOrEqual"/>
    </requires>
+
+   <includes
+         id="org.eclipse.emf.emfstore.ecp.source.feature"
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.ecp.emfstorebridge"
