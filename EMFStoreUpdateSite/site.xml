@@ -36,6 +36,12 @@
    <feature url="features/org.eclipse.emf.emfstore.server.feature_0.8.9.M920.jar" id="org.eclipse.emf.emfstore.server.feature" version="0.8.9.M920">
       <category name="org.eclipse.emf.emfstore.core"/>
    </feature>
+   <feature url="features/org.eclipse.emf.emfstore.ecp.feature_0.8.9.M920.jar" id="org.eclipse.emf.emfstore.ecp.feature" version="0.8.9.M920">
+      <category name="org.eclipse.emf.emfstore.core"/>
+   </feature>
+   <feature url="features/org.eclipse.emf.emfstore.migration.edapt.feature_0.8.9.M920.jar" id="org.eclipse.emf.emfstore.migration.edapt.feature" version="0.8.9.M920">
+      <category name="org.eclipse.emf.emfstore.other"/>
+   </feature>
    <category-def name="org.eclipse.emf.emfstore.core" label="EMFStore Core Features (Install all to get started)">
       <description>
          Core Features of EMFStore, a model repository for EMF.
