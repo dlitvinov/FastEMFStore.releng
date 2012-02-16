@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.client.ui.feature"
       label="EMFStore Client UI (Incubation)"
-      version="0.8.9.M923"
+      version="0.8.9.M924"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
@@ -231,10 +231,10 @@ litigation.
       <import plugin="org.eclipse.emf.emfstore.client"/>
       <import plugin="org.eclipse.emf.edit.ui"/>
       <import plugin="org.eclipse.jface"/>
-      <import plugin="org.eclipse.core.expressions" version="3.4.200" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.ui.forms" version="3.5.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.ui.forms" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.emfstore.common.model"/>
-      <import plugin="org.eclipse.emf.edit" version="2.6.0" match="compatible"/>
+      <import plugin="org.eclipse.emf.edit"/>
    </requires>
 
    <plugin

@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.server.feature"
       label="EMFStore Server (Incubation)"
-      version="0.8.9.M923"
+      version="0.8.9.M924"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
@@ -223,6 +223,10 @@ litigation.
          id="org.eclipse.emf.emfstore.common.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.emf.emfstore.server.source.feature"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.apache.commons.codec" version="1.3.0" match="greaterOrEqual"/>
       <import plugin="org.apache.commons.logging"/>
@@ -230,10 +234,6 @@ litigation.
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.emf.emfstore.common.model"/>
    </requires>
-
-   <includes
-         id="org.eclipse.emf.emfstore.server.source.feature"
-         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.emfstore.server"

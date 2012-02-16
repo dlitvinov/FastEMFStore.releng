@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.common.feature"
       label="EMFStore Common (Incubation)"
-      version="0.8.9.M923"
+      version="0.8.9.M924"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
@@ -227,8 +227,8 @@ litigation.
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.core.resources"/>
-      <import plugin="org.eclipse.emf.ecore.xmi" version="2.6.0" match="compatible"/>
-      <import plugin="org.eclipse.emf.ecore" version="2.6.0" match="compatible"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.ecore"/>
    </requires>
 
    <plugin
