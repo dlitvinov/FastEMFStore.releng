@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.server.feature"
       label="EMFStore Server (Incubation)"
-      version="0.8.9.M924"
+      version="0.8.9.M926"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
@@ -221,10 +221,6 @@ litigation.
 
    <includes
          id="org.eclipse.emf.emfstore.common.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.emf.emfstore.server.source.feature"
          version="0.0.0"/>
 
    <requires>

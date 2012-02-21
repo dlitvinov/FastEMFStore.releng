@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.ecp.feature"
       label="EMFStore ECP Integration (Incubation)"
-      version="0.8.9.M924"
+      version="0.8.9.M926"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org ">
@@ -217,10 +217,6 @@ Agreement more than one year after the cause of action arose.
 Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
-
-   <includes
-         id="org.eclipse.emf.emfstore.ecp.source.feature"
-         version="0.0.0"/>
 
    <requires>
       <import plugin="org.eclipse.ui"/>
