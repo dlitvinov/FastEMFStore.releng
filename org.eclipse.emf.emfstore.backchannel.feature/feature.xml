@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.backchannel.feature"
       label="EMFStore Backchannel (Incubation)"
-      version="0.8.9.M928"
+      version="0.8.9.M929"
       provider-name="Eclipse Modeling Project"
       plugin="org.eclipse.emf.emfstore.branding">
 
