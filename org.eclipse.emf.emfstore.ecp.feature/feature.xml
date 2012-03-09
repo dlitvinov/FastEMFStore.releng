@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.ecp.feature"
       label="EMFStore ECP Integration (Incubation)"
-      version="0.8.9"
+      version="0.8.9.M932"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org ">
