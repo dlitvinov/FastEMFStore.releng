@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.emfstore.migration.edapt.feature"
       label="EMFStore Edapt Migration (Incubation)"
-      version="0.8.9.M933"
+      version="0.8.9.M934"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfstore.org">
